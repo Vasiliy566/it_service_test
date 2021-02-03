@@ -5,7 +5,7 @@ python:
 services:
   - docker
 before_install:
-  - docker build -t carlad/sinatra .
+  - docker build -t app:v0.1 app/
 install:
   - pip install -r app/requirements.txt
   - pip install codecov
