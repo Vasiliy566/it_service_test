@@ -19,3 +19,12 @@ def wrong_type_argument_provided(argument, arg_type):
     resp = jsonify({"body": error_msg})
     resp.status_code = 422
     return resp
+
+
+def wrong_argument_provided(argument, reason):
+    error_msg = f"failed:  argument {argument} is incorrect: {reason}"
+    logger.error(error_msg)
+    resp = jsonify({"body": error_msg})
+    resp.status_code = 422
+    return resp
+
