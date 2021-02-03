@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/Vasiliy566/it_service_test.svg?branch=main)](https://travis-ci.com/Vasiliy566/it_service_test)
 ### Основная часть
 - [x] - Rest-api сервис с использованием flask
 - [x] - Поиск кратчайшего пути в графе (длинна пути + сам путь)
